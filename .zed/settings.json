@@ -1,0 +1,13 @@
+{
+  "edit_predictions": {
+    "provider": "codestral",
+    "mode": "eager",
+  },
+  "lsp": {
+    "gopls": {
+      "initialization_options": {
+        "buildFlags": ["-tags=mage"],
+      },
+    },
+  },
+}
