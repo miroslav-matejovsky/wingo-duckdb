@@ -71,9 +71,12 @@
     "gotest",
     "gotestsum",
     "LASTEXITCODE",
+    "Msys",
     "msys2",
+    "pacman",
     "pkgname",
     "taskfile",
+    "ucrt",
     "venv",
     "wingo"
   ]
