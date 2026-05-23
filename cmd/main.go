@@ -1,7 +1,16 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"os"
+
+	_ "github.com/duckdb/duckdb-go/v2"
+)
 
 func main() {
-	fmt.Println("Hello, world!")
+	if err := doChecks(); err != nil {
+		fmt.Println(err)
+		os.Exit(1)
+	}
+	runDuckDB()
 }

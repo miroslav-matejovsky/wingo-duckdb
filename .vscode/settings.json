@@ -64,15 +64,17 @@
     "appliedgocode",
     "coverprofile",
     "deadcode",
+    "duckdb",
+    "fe3dback",
     "golangci",
     "gopls",
     "gotest",
     "gotestsum",
     "LASTEXITCODE",
+    "msys2",
     "pkgname",
     "taskfile",
     "venv",
-    "wingo",
-    "fe3dback"
+    "wingo"
   ]
 }

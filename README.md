@@ -1,3 +1,7 @@
-# Template Repository
+# Running Go programs with embedded DuckDB on Windows
 
-Template for my personal repositories.
+This repository demonstrates how to run Go programs with embedded DuckDB on Windows.
+
+## Setup
+
+DuckDB requires gcc and all necessary build tools to be installed on the system.
