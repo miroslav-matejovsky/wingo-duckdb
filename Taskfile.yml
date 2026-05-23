@@ -52,7 +52,7 @@ tasks:
     desc: Run unit tests (saved to .test-results/)
     silent: true
     cmds:
-      - pwsh -NoProfile -NonInteractive -File taskfile/test.ps1
+      - pwsh -NoProfile -NonInteractive -Command "& { . ./taskfile/use-msys2-gcc.ps1; ./taskfile/test.ps1 }"
 
   all:
     desc: Run all checks and tests. This is the main task to run before considering work complete.
@@ -76,7 +76,7 @@ tasks:
     desc: Run the application (for development)
     silent: true
     cmds:
-      - go run ./cmd/...
+      - pwsh -NoProfile -NonInteractive -Command "& { . ./taskfile/use-msys2-gcc.ps1; go run ./cmd/... }"
 
 # ---- maintenance tasks ----
 

@@ -31,3 +31,10 @@ pwsh -NoProfile -NonInteractive -File taskfile/use-msys2-gcc.ps1
 go run ./cmd/...
 ```
 
+Or simply run the task using Taskfile:
+
+```powershell
+task run
+```
+
+
