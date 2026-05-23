@@ -27,7 +27,8 @@ MSYS2 provides a compatible GCC toolchain and runtime.
 
 ## Running the application
 
-To ensure that correct gcc and runtime libraries are used, there is <taskfile/use-msys2-gcc.ps1> script that sets the necessary environment variables. Run this script in your PowerShell terminal before building or running the Go programs:
+To ensure that correct gcc and runtime libraries are used, there is [use-msys2-gcc.ps1](taskfile/use-msys2-gcc.ps1) script that sets the necessary environment variables.
+Run this script in your PowerShell terminal before building or running the Go programs:
 
 ```powershell
 pwsh -NoProfile -NonInteractive -File taskfile/use-msys2-gcc.ps1
