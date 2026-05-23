@@ -10,21 +10,20 @@ MSYS2 provides a compatible GCC toolchain and runtime.
 
 ## Setup
 
-1. MSYS2 (via scoop)
+1. MSYS2 (via scoop) as a platform for GCC and runtime libraries.
 
     ```powershell
     scoop install msys2
     ```
 
 2. GCC and runtime libraries
+   Open an MSYS2 terminal and run the following command to install the required packages as mentioned in the [DuckDB documentation](https://github.com/duckdb/duckdb-go#windows):
 
-  Open an MSYS2 terminal and run the following command to install the required packages as mentioned in the [DuckDB documentation](https://github.com/duckdb/duckdb-go#windows):
+     ```bash
+     pacman -S mingw-w64-ucrt-x86_64-gcc
+     ```
 
-    ```bash
-    pacman -S mingw-w64-ucrt-x86_64-gcc
-    ```
-  
-  This installs the GCC toolchain required for building Go programs with DuckDB on Windows.
+   This installs the GCC toolchain required for building Go programs with DuckDB on Windows.
 
 ## Running the application
 
