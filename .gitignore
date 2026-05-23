@@ -1,4 +1,4 @@
 .env
 .env.ps1
 bin/*
-testresults/*
+.test-results/*
