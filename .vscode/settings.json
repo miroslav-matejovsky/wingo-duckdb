@@ -15,6 +15,7 @@
     "**/*.svg": true,
     "docs/godocs/**": true
   },
+  "chat.agentsControl.enabled": "hidden",
   "github.copilot.nextEditSuggestions.enabled": true,
   "github.copilot.enable": {
     "*": true,
@@ -31,7 +32,7 @@
   "workbench.iconTheme": "vscode-icons",
   "workbench.colorTheme": "Flexoki Dark",
   "terminal.integrated.fontFamily": "MesloLGS Nerd Font Mono",
-  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontSize": 13,
   "terminal.integrated.profiles.windows": {
     "pwsh": {
       "source": "PowerShell",
@@ -59,5 +60,24 @@
   "todo-tree.filtering.excludeGlobs": [
     "**/.git/hooks/**"
   ],
-  "cSpell.words": []
+  "cSpell.words": [
+    "appliedgocode",
+    "coverprofile",
+    "deadcode",
+    "duckdb",
+    "fe3dback",
+    "golangci",
+    "gopls",
+    "gotest",
+    "gotestsum",
+    "LASTEXITCODE",
+    "Msys",
+    "msys2",
+    "pacman",
+    "pkgname",
+    "taskfile",
+    "ucrt",
+    "venv",
+    "wingo"
+  ]
 }
